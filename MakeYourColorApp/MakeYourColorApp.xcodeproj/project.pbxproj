@@ -9,21 +9,29 @@
 /* Begin PBXBuildFile section */
 		52CD45B428C6152B00AA3E15 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CD45B328C6152B00AA3E15 /* AppDelegate.swift */; };
 		52CD45B628C6152B00AA3E15 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CD45B528C6152B00AA3E15 /* SceneDelegate.swift */; };
-		52CD45B828C6152B00AA3E15 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CD45B728C6152B00AA3E15 /* ViewController.swift */; };
-		52CD45BB28C6152B00AA3E15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52CD45B928C6152B00AA3E15 /* Main.storyboard */; };
+		52CD45BB28C6152B00AA3E15 /* MakeYourColorVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52CD45B928C6152B00AA3E15 /* MakeYourColorVC.storyboard */; };
 		52CD45BD28C6152F00AA3E15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52CD45BC28C6152F00AA3E15 /* Assets.xcassets */; };
 		52CD45C028C6152F00AA3E15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52CD45BE28C6152F00AA3E15 /* LaunchScreen.storyboard */; };
+		52CD45CE28C6237F00AA3E15 /* UIViewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CD45CD28C6237F00AA3E15 /* UIViewControllerExt.swift */; };
+		52CD45D028C623A000AA3E15 /* UIColorExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CD45CF28C623A000AA3E15 /* UIColorExt.swift */; };
+		52CD45D228C628B000AA3E15 /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CD45D128C628B000AA3E15 /* Services.swift */; };
+		52CD45DA28C62E6F00AA3E15 /* ColorSetVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CD45D928C62E6F00AA3E15 /* ColorSetVC.swift */; };
+		52CD45DE28C62EF900AA3E15 /* ColorViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CD45DD28C62EF900AA3E15 /* ColorViewVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		52CD45B028C6152B00AA3E15 /* MakeYourColorApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MakeYourColorApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52CD45B328C6152B00AA3E15 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52CD45B528C6152B00AA3E15 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		52CD45B728C6152B00AA3E15 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		52CD45BA28C6152B00AA3E15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		52CD45BA28C6152B00AA3E15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MakeYourColorVC.storyboard; sourceTree = "<group>"; };
 		52CD45BC28C6152F00AA3E15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52CD45BF28C6152F00AA3E15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52CD45C128C6152F00AA3E15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52CD45CD28C6237F00AA3E15 /* UIViewControllerExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExt.swift; sourceTree = "<group>"; };
+		52CD45CF28C623A000AA3E15 /* UIColorExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExt.swift; sourceTree = "<group>"; };
+		52CD45D128C628B000AA3E15 /* Services.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
+		52CD45D928C62E6F00AA3E15 /* ColorSetVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSetVC.swift; sourceTree = "<group>"; wrapsLines = 1; };
+		52CD45DD28C62EF900AA3E15 /* ColorViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorViewVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +64,67 @@
 		52CD45B228C6152B00AA3E15 /* MakeYourColorApp */ = {
 			isa = PBXGroup;
 			children = (
-				52CD45B328C6152B00AA3E15 /* AppDelegate.swift */,
-				52CD45B528C6152B00AA3E15 /* SceneDelegate.swift */,
-				52CD45B728C6152B00AA3E15 /* ViewController.swift */,
-				52CD45B928C6152B00AA3E15 /* Main.storyboard */,
-				52CD45BC28C6152F00AA3E15 /* Assets.xcassets */,
-				52CD45BE28C6152F00AA3E15 /* LaunchScreen.storyboard */,
+				52CD45C728C6229B00AA3E15 /* Controllers */,
+				52CD45C828C622A900AA3E15 /* Services */,
+				52CD45C928C622C900AA3E15 /* Views */,
+				52CD45CA28C622DD00AA3E15 /* App */,
+				52CD45CB28C622EC00AA3E15 /* Extensions */,
+				52CD45CC28C6230600AA3E15 /* Resources */,
 				52CD45C128C6152F00AA3E15 /* Info.plist */,
 			);
 			path = MakeYourColorApp;
+			sourceTree = "<group>";
+		};
+		52CD45C728C6229B00AA3E15 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				52CD45DD28C62EF900AA3E15 /* ColorViewVC.swift */,
+				52CD45D928C62E6F00AA3E15 /* ColorSetVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		52CD45C828C622A900AA3E15 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				52CD45D128C628B000AA3E15 /* Services.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		52CD45C928C622C900AA3E15 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				52CD45B928C6152B00AA3E15 /* MakeYourColorVC.storyboard */,
+				52CD45BE28C6152F00AA3E15 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		52CD45CA28C622DD00AA3E15 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				52CD45B328C6152B00AA3E15 /* AppDelegate.swift */,
+				52CD45B528C6152B00AA3E15 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		52CD45CB28C622EC00AA3E15 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				52CD45CD28C6237F00AA3E15 /* UIViewControllerExt.swift */,
+				52CD45CF28C623A000AA3E15 /* UIColorExt.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		52CD45CC28C6230600AA3E15 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				52CD45BC28C6152F00AA3E15 /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +187,7 @@
 			files = (
 				52CD45C028C6152F00AA3E15 /* LaunchScreen.storyboard in Resources */,
 				52CD45BD28C6152F00AA3E15 /* Assets.xcassets in Resources */,
-				52CD45BB28C6152B00AA3E15 /* Main.storyboard in Resources */,
+				52CD45BB28C6152B00AA3E15 /* MakeYourColorVC.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,21 +198,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52CD45B828C6152B00AA3E15 /* ViewController.swift in Sources */,
+				52CD45D228C628B000AA3E15 /* Services.swift in Sources */,
 				52CD45B428C6152B00AA3E15 /* AppDelegate.swift in Sources */,
+				52CD45CE28C6237F00AA3E15 /* UIViewControllerExt.swift in Sources */,
+				52CD45D028C623A000AA3E15 /* UIColorExt.swift in Sources */,
 				52CD45B628C6152B00AA3E15 /* SceneDelegate.swift in Sources */,
+				52CD45DA28C62E6F00AA3E15 /* ColorSetVC.swift in Sources */,
+				52CD45DE28C62EF900AA3E15 /* ColorViewVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		52CD45B928C6152B00AA3E15 /* Main.storyboard */ = {
+		52CD45B928C6152B00AA3E15 /* MakeYourColorVC.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				52CD45BA28C6152B00AA3E15 /* Base */,
 			);
-			name = Main.storyboard;
+			name = MakeYourColorVC.storyboard;
 			sourceTree = "<group>";
 		};
 		52CD45BE28C6152F00AA3E15 /* LaunchScreen.storyboard */ = {
@@ -292,7 +356,7 @@
 				INFOPLIST_FILE = MakeYourColorApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = MakeYourColorVC;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -320,7 +384,7 @@
 				INFOPLIST_FILE = MakeYourColorApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = MakeYourColorVC;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
